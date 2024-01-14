@@ -1,0 +1,220 @@
+	body, html {
+    font-family: font-family: 'Bodoni Moda', serif;;
+    margin: 0;
+}
+
+h1 {
+    margin: 1em;
+}
+
+h2 {
+  margin: 0.5em 1.4em;
+  color: #696969;
+}
+
+h3{
+  margin: 0.5em 1.8em;
+  color: 	#808080;
+}
+
+h4{
+  margin: 2em 0.5em 0.5em 2em;;
+}
+
+p {
+	margin: 0.5em 2em;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+}
+
+.naslovna {
+	background-image: url("img/LOGO.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 200px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #bd9955;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+li {
+    float: left;
+    padding-left: 1em;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+  background-color: #f5cd82;
+  border-radius: 20px;
+  padding: 14px 16px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+    
+figure {
+    padding: 0.5em;
+    margin: 0 1em 0.5em 2em;
+    float: left;
+    width: 35%;
+    border: 1px solid black;
+}
+
+
+main a {
+	color: #696969;
+	text-decoration: none;
+}
+main a:hover {
+	text-decoration: underline;
+}
+
+.news a:hover {
+  text-decoration: none;
+}
+
+footer {
+	background-color: #bd9955;
+	padding: 0.2em;
+	clear: both;
+	color: white;
+	text-align: center;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  #contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .video {
+    margin: 1em 2em;
+    float: left;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .news img {
+    width: 15%;
+    float: left;
+    margin: 0 1em 1em 2em;
+  }
+
+
+  hr {
+    margin: 2em;
+    clear: both;
+  }
+
+  time {
+    font-size: 90%;
+    font-style: italic;
+  }
+
+  .gallery {
+    margin: 2em;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .desc {
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    clear: both;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 30%;
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    figure {
+      width: 90%;
+      margin: 2em;
+    }
+
+    .video {
+      width: 90%;
+      margin: 2em;
+    }
+
+    .news img {
+      width: 90%;
+      height: auto;
+      margin: 0.5em 2em;
+  }
+
+    .news p {
+      margin: 0.5em 2em;
+    }
+
+    .news h2 {
+      margin: 0.5em 1.3em;
+    }
+
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 100%;
+    }
+  }
